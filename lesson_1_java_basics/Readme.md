@@ -66,7 +66,7 @@ Anything initialized in a loop will be reinitialized with each loop cycle. E.g. 
 
     for (int i = 0; i < 10000; i++) {
         int anything = 5;
-        anything = anything + 1
+        anything = anything + 1;
         System.out.println(anything);
     }
 

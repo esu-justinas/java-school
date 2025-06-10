@@ -21,7 +21,7 @@
               "name": "Vardenis",
               "surname": "Pavardenis"
           }
-   2. GET /api/mechanic/{id} , where instead of {id}. You can put id of existing mechanic entity from DB and this endpoint should return json object of that entity like looking like this, with 200 HTTP code:
+   2. GET /api/mechanic/{id} , where instead of {id}. You can put id of existing mechanic entity from DB and this endpoint should return json object of that entity looking like this, with 200 HTTP code:
 
           {
               "id": <id of DB entity>
